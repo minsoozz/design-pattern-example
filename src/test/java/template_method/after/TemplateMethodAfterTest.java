@@ -6,11 +6,11 @@ public class TemplateMethodAfterTest {
 
     @Test
     void test(){
-        Kakao kakao = new Kakao();
-        Naver naver = new Naver();
+        Minsoo minsoo = new Minsoo();
+        SooMin sooMin = new SooMin();
 
-        kakao.selectMember();
+        minsoo.dailyLesson();
         System.out.println("============");
-        naver.selectMember();
+        sooMin.dailyLesson();
     }
 }
