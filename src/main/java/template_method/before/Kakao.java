@@ -13,7 +13,7 @@ public class Kakao {
     }
 
     private void query() {
-        System.out.println("카카오 회원 조회 쿼리 실행");
+        System.out.println("카카오 회원 테이블에서 조회 쿼리 실행");
     }
 
     private void close() {
