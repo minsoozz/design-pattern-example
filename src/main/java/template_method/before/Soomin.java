@@ -2,7 +2,7 @@ package template_method.before;
 
 public class Soomin {
 
-    public void school() {
+    public void dailyLesson() {
         goToSchool();
         study();
         goToHome();

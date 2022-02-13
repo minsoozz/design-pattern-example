@@ -9,8 +9,8 @@ public class TemplateMethodBeforeTest {
         Minsoo minsoo = new Minsoo();
         Soomin soomin = new Soomin();
 
-        minsoo.school();
+        minsoo.dailyLesson();
         System.out.println("============");
-        soomin.school();
+        soomin.dailyLesson();
     }
 }
