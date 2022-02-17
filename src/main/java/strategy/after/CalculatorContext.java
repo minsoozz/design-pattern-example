@@ -1,24 +1,17 @@
 package strategy.after;
 
-import java.util.Scanner;
-
 public class CalculatorContext {
 
-    private final CalculatorService calculatorService;
+  private CalculatorStrategy calculatorStrategy;
 
-    public CalculatorContext(CalculatorService calculatorService) {
-        this.calculatorService = calculatorService;
-    }
+  public CalculatorContext(CalculatorStrategy calculatorStrategy) {
+    this.calculatorStrategy = calculatorStrategy;
+  }
 
-    public void execute() {
+  public void execute(double number1, double number2) {
 
-        Scanner scanner = new Scanner(System.in);
+    double result = calculatorStrategy.logic(number1, number2);
 
-        double number1 = scanner.nextDouble();
-        double number2 = scanner.nextDouble();
-
-        double result = calculatorService.logic(number1, number2);
-
-        System.out.println(result);
-    }
+    System.out.println(result);
+  }
 }
