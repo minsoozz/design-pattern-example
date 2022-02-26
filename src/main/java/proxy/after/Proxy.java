@@ -1,4 +1,4 @@
-package proxy;
+package proxy.after;
 
 public class Proxy implements Subject {
 

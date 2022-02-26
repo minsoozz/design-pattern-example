@@ -1,8 +1,8 @@
-package proxy;
+package proxy.after;
 
 import org.junit.jupiter.api.Test;
 
-public class ProxyTest {
+public class ProxyAfterTest {
 
   @Test
   void test() {
