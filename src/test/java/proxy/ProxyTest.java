@@ -4,7 +4,6 @@ import org.junit.jupiter.api.Test;
 
 public class ProxyTest {
 
-
   @Test
   void test() {
     RealSubject realSubject = new RealSubject();
